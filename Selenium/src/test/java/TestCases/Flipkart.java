@@ -14,7 +14,6 @@ public class Flipkart {
 
 	@Test
 	public void Execution() {
-
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();
